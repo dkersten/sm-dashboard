@@ -2,7 +2,9 @@
 @import './variables.css';
 @import './copy.css';
 
+@import './components/card.css';
 @import './components/info-section.css';
+@import './components/overall-section.css';
 
 :root {
   font-size: 14px;

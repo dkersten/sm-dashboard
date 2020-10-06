@@ -1,0 +1,103 @@
+section.sm-overall {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.sm-overall .card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+section.sm-overall .card:after {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0;
+  top: 0;
+  height: 5px;
+  width: 100%;
+}
+
+section.sm-overall .card.facebook:after {
+  background: var(--color-facebook);
+}
+
+section.sm-overall .card.twitter:after {
+  background: var(--color-twitter);
+}
+
+section.sm-overall .card.twitter img {
+  margin-bottom: 3px;
+}
+
+section.sm-overall .card.instagram:after {
+  background: var(--color-instagram);
+}
+section.sm-overall .card.youtube:after {
+  background: var(--color-youtube);
+}
+
+section.sm-overall .card .sm-info {
+  display: flex;
+  align-items: center;
+}
+
+section.sm-overall .card .sm-info img {
+  margin-right: 0.75rem;
+}
+
+section.sm-overall .card .sm-info span {
+  color: var(--color-text-blue);
+}
+
+section.sm-overall .card .followers-num {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--color-text-white);
+  margin: 2rem auto 0.75rem;
+}
+
+section.sm-overall .card > p {
+  text-transform: uppercase;
+  color: var(--color-text-blue);
+  letter-spacing: 5px;
+  margin-bottom: 1.75rem;
+}
+
+section.sm-overall .card .follower-change {
+  font-weight: 700;
+}
+
+section.sm-overall .card .follower-change.up {
+  color: var(--color-lime-green);
+}
+
+section.sm-overall .card .follower-change.down {
+  color: var(--color-bright-red);
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid var(--color-lime-green);
+  margin-bottom: 2px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--color-bright-red);
+  /* margin-top: -2px; */
+  margin-bottom: 2px;
+}

@@ -1,5 +1,3 @@
-@import '../variables.css';
-
 section.info {
   display: flex;
   justify-content: space-between;
@@ -17,4 +15,5 @@ section.info h1 {
 
 section.info p {
   color: var(--color-text-blue);
+  font-weight: 700;
 }
