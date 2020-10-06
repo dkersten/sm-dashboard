@@ -80,24 +80,3 @@ section.sm-overall .card .follower-change.up {
 section.sm-overall .card .follower-change.down {
   color: var(--color-bright-red);
 }
-
-.arrow-up {
-  width: 0;
-  height: 0;
-  display: inline-block;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-bottom: 5px solid var(--color-lime-green);
-  margin-bottom: 2px;
-}
-
-.arrow-down {
-  width: 0;
-  height: 0;
-  display: inline-block;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 5px solid var(--color-bright-red);
-  /* margin-top: -2px; */
-  margin-bottom: 2px;
-}

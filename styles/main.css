@@ -5,6 +5,7 @@
 @import './components/card.css';
 @import './components/info-section.css';
 @import './components/overall-section.css';
+@import './components/overview-section.css';
 
 :root {
   font-size: 14px;
@@ -16,4 +17,25 @@
   padding-left: 2rem;
   padding-right: 2rem;
   max-width: 1440px;
+}
+
+.arrow-up {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid var(--color-lime-green);
+  margin-bottom: 2px;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  display: inline-block;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid var(--color-bright-red);
+  /* margin-top: -2px; */
+  margin-bottom: 2px;
 }
