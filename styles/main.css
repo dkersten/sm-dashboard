@@ -1,0 +1,17 @@
+@import './reset.css';
+@import './variables.css';
+@import './copy.css';
+
+@import './components/info-section.css';
+
+:root {
+  font-size: 14px;
+  background: var(--color-bg-dark-blue);
+}
+
+.container {
+  margin: 2rem auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1440px;
+}
