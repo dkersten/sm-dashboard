@@ -4,6 +4,10 @@ body.dark {
   background: var(--color-bg-dark-blue);
 }
 
+body.dark label.dark-mode-label {
+  color: var(--color-text-blue);
+}
+
 body.dark .card {
   background: var(--color-bg-card-blue);
 }

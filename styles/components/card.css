@@ -39,7 +39,7 @@
   }
 }
 
-@media only screen and (max-width: 570px) {
+@media only screen and (max-width: 581px) {
   .card-section .card {
     flex-basis: 50%;
   }

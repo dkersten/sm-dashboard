@@ -3,6 +3,10 @@ body.light {
   background: var(--color-white);
 }
 
+body.light label.dark-mode-label {
+  color: var(--color-text-gray-blue);
+}
+
 body.light .card {
   background: var(--color-bg-card-light-blue);
 }

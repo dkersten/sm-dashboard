@@ -6,6 +6,7 @@
 @import './components/info-section.css';
 @import './components/overall-section.css';
 @import './components/overview-section.css';
+@import './components/theme-toggle.css';
 
 @import './light-theme.css';
 @import './dark-theme.css';
