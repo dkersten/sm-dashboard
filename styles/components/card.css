@@ -4,7 +4,6 @@
   flex-basis: calc(25% - (6rem / 4) - 4rem);
   min-width: 200px;
   margin-bottom: 2rem;
-  background: var(--color-bg-card-blue);
 }
 
 .card-section {

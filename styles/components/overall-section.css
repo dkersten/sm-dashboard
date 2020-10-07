@@ -44,20 +44,14 @@ section.sm-overall .card .sm-info img {
   margin-right: 0.75rem;
 }
 
-section.sm-overall .card .sm-info span {
-  color: var(--color-text-blue);
-}
-
 section.sm-overall .card .followers-num {
   font-size: 4rem;
   font-weight: 700;
-  color: var(--color-text-white);
   margin: 2rem auto 0.75rem;
 }
 
 section.sm-overall .card > p {
   text-transform: uppercase;
-  color: var(--color-text-blue);
   letter-spacing: 4px;
   margin-bottom: 1.75rem;
 }

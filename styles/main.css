@@ -7,17 +7,12 @@
 @import './components/overall-section.css';
 @import './components/overview-section.css';
 
+@import './light-theme.css';
+@import './dark-theme.css';
+
 :root {
   font-size: 14px;
   /* background: var(--color-bg-dark-blue); */
-}
-
-body.dark {
-  background: var(--color-bg-dark-blue);
-}
-
-body.light {
-  background: var(--color-white);
 }
 
 .container {

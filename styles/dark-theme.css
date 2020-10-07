@@ -1,0 +1,45 @@
+/* body section */
+
+body.dark {
+  background: var(--color-bg-dark-blue);
+}
+
+body.dark .card {
+  background: var(--color-bg-card-blue);
+}
+
+/* info/settings section */
+section.info.dark h1 {
+  color: var(--color-text-white);
+}
+
+section.info.dark p {
+  color: var(--color-text-blue);
+}
+
+/* overall section */
+section.sm-overall.dark .card .sm-info span {
+  color: var(--color-text-blue);
+}
+
+section.sm-overall.dark .card .followers-num {
+  color: var(--color-text-white);
+}
+
+section.sm-overall.dark .card > p {
+  color: var(--color-text-blue);
+}
+
+/* overview (today) section */
+
+section.overview.dark h2 {
+  color: var(--color-text-white);
+}
+
+section.overview.dark .left .top-left {
+  color: var(--color-text-blue);
+}
+
+section.overview.dark .left .bottom-left {
+  color: var(--color-text-white);
+}
