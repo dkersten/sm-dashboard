@@ -27,7 +27,7 @@
       }
     </style>
   </head>
-  <body>
+  <body class="light">
     <div class="container">
       <section class="info">
         <div class="headline-container">
@@ -35,8 +35,13 @@
           <p>Total Followers: 23,004</p>
         </div>
         <div class="settings-container">
-          <label for="dark">Dark Mode</label>
-          <input type="checkbox" name="dark" id="darkCheck" />
+          <input
+            class="theme-checkbox"
+            type="checkbox"
+            name="theme-checkbox"
+            id="darkCheck"
+          />
+          <label for="theme-checkbox">Dark Mode</label>
         </div>
       </section>
       <section class="sm-overall card-section">
@@ -193,5 +198,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Your Name Here</a>.
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>
