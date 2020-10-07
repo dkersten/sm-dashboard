@@ -11,6 +11,11 @@ body.light .card {
   background: var(--color-bg-card-light-blue);
 }
 
+body.light .card:hover {
+  cursor: pointer;
+  background: var(--color-bg-card-light-hover);
+}
+
 /* info/settings section */
 section.info.light h1 {
   color: var(--color-text-dark-blue);

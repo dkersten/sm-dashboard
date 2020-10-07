@@ -22,6 +22,7 @@
   --color-bg-dark-blue: hsl(230, 17%, 14%);
   --color-bg-top-dark-blue: hsl(232, 19%, 15%);
   --color-bg-card-blue: hsl(228, 28%, 20%);
+  --color-bg-card-dark-hover: hsl(230, 27%, 25%);
   --color-text-blue: hsl(228, 34%, 66%);
   --color-text-white: hsl(0, 0%, 100%);
 
@@ -30,6 +31,7 @@
   --color-white: hsl(0, 0%, 100%);
   --color-bg-top-pale-blue: hsl(225, 100%, 98%);
   --color-bg-card-light-blue: hsl(227, 47%, 96%);
+  --color-bg-card-light-hover: hsl(229, 20%, 89%);
   --color-text-gray-blue: hsl(228, 12%, 44%);
   --color-text-dark-blue: hsl(230, 17%, 14%);
 }

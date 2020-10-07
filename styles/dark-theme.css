@@ -12,6 +12,11 @@ body.dark .card {
   background: var(--color-bg-card-blue);
 }
 
+body.dark .card:hover {
+  cursor: pointer;
+  background: var(--color-bg-card-dark-hover);
+}
+
 /* info/settings section */
 section.info.dark h1 {
   color: var(--color-text-white);
