@@ -10,17 +10,10 @@ section.overview h2 {
   margin-bottom: 2rem;
 }
 
-section.overview .card-section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-}
-
 section.overview .card {
   display: flex;
   justify-content: space-between;
-  align-items: ce;
+  align-items: center;
 }
 
 section.overview .left {
